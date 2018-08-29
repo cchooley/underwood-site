@@ -1,0 +1,12 @@
+section {
+    background-image: url(../../../assets/about.jpg);
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

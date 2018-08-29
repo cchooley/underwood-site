@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2vh;
+    border-top: 1px black solid;
+    background: rgb(199, 199, 199);
+    background-image: url(../../../assets/background.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+    font-size: 1.75vh;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 25vmin;
+    font-size: 1.5vh;
+    padding: .2vh;
+}
+
+a {
+    text-decoration: none
+}

@@ -1,0 +1,13 @@
+section {
+    background-image: url(../../../assets/director.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2vh;
+    border-bottom: 1px black solid;
+    background: rgb(199, 199, 199);
+    background-image: url(../../../assets/background.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 50vmin;
+    font-size: 2.5vh;
+    outline: .1vh black solid;
+    padding: 1vh;
+    background: rgb(255, 255, 255, .4)
+}
+
+div {
+    display: flex;
+    flex-flow: column;
+    padding: 1.25vmax;
+    outline: .1vh black solid;
+    background-color: rgb(255, 255, 255, .4)
+}
+
+a {
+    text-decoration: none
+}
+
+.big {
+    font-size: 6vh;
+}
+
+.inner {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    outline: none;
+    margin-top: .2vh;
+    padding: 0;
+    background-color: rgb(255, 255, 255, .4);
+}
+
+.small {
+    font-weight: 200;
+    font-size: 2.25vh;
+    background-color: rgb(255, 255, 255, .4);
+}
